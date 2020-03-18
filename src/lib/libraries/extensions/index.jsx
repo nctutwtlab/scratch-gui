@@ -46,6 +46,8 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import sippIconURL from './sipp-rabboni/sipp-rabboni-600-372.png';
+
 export default [
     {
         name: (
@@ -317,5 +319,19 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Sipp Rabboni',
+        extensionId: 'sippRabboni',
+        iconURL: sippIconURL,
+        // insetIconURL: helloworldInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Sipp Sensor"
+                description="Extension for sipp sensor"
+                id="gui.extension.sippRabboni.description"
+            />
+        ),
+        featured: true
     }
 ];
