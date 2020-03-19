@@ -46,7 +46,7 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
-import sippIconURL from './sipp-rabboni/sipp-rabboni-600-372.png';
+import sippIconURL from './sipp-rabboni/rabboni_scartch3.png';
 
 export default [
     {
