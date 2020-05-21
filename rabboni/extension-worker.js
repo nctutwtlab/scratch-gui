@@ -116,7 +116,9 @@ var dispatch = __webpack_require__(/*! ../dispatch/worker-dispatch */ "./node_mo
 
 var TargetType = __webpack_require__(/*! ../extension-support/target-type */ "./node_modules/scratch-vm/src/extension-support/target-type.js");
 
-var ExtensionWorker = /*#__PURE__*/function () {
+var ExtensionWorker =
+/*#__PURE__*/
+function () {
   function ExtensionWorker() {
     var _this = this;
 
@@ -835,7 +837,9 @@ var log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/
  */
 
 
-var SharedDispatch = /*#__PURE__*/function () {
+var SharedDispatch =
+/*#__PURE__*/
+function () {
   function SharedDispatch() {
     _classCallCheck(this, SharedDispatch);
 
@@ -1124,7 +1128,7 @@ module.exports = SharedDispatch;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -1154,7 +1158,9 @@ var log = __webpack_require__(/*! ../util/log */ "./node_modules/scratch-vm/src/
  */
 
 
-var WorkerDispatch = /*#__PURE__*/function (_SharedDispatch) {
+var WorkerDispatch =
+/*#__PURE__*/
+function (_SharedDispatch) {
   _inherits(WorkerDispatch, _SharedDispatch);
 
   function WorkerDispatch() {
