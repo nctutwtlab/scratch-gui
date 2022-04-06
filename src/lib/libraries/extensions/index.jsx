@@ -46,6 +46,11 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import rabboniIconURL from './rabboni/rabboni_scartch3.png';
+
+import webserialArduinoImage from './webserialArduino/webserialArduino.png';
+import webserialArduinoInsetIconURL from './webserialArduino/webserialArduino-small.png';
+
 export default [
     {
         name: (
@@ -317,5 +322,37 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
-    }
+    },
+    {
+        name: 'Rabboni',
+        extensionId: 'rabboni',
+        iconURL: rabboniIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Rabboni"
+                description="Extension for rabboni"
+                id="gui.extension.rabboni.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: 'Web Serial Arduino',
+        extensionId: 'webserialArduino',
+        collaborator: "estea chen",
+        iconURL: webserialArduinoImage,
+        insetIconURL: webserialArduinoInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect Arudino and Google Chrome using Web Serial API."
+                description="Web serial for the Arduino extension"
+                id="gui.extension.WebSerialArduino.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://sites.google.com/view/scratch-web-serial-api/'
+    },
 ];
